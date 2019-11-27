@@ -21,6 +21,7 @@ public class CardsRepository {
 	@Autowired
 	NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 	
+	
 	private static List<String> allCards;
 	static{
 		File f = new File("F:\\workspace\\cards\\src\\main\\resources\\static\\pokemon_parse_data.csv");
